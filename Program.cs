@@ -25,6 +25,7 @@ class Program
         }
     }
 
+    // 2
     public static int CountThreeDigitAndEvenNumbers(List<int> numbers)
     {
         var count = 0;
@@ -38,6 +39,7 @@ class Program
         return count;
     }
 
+    // 3
     public static bool IslowerEndAndStart(List<string> texts)
     {
         foreach (var text in texts)
@@ -49,7 +51,8 @@ class Program
         }
         return false;
     }
-
+    
+    // 4
     public static string RemoveTwoFirstAndLastChars(string text)
     {
         var result =text.Remove(0, 2);
